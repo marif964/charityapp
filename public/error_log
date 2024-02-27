@@ -1,0 +1,2 @@
+[30-Aug-2023 10:23:25 UTC] PHP Fatal error:  App\Models\User cannot implement Illuminate\Foundation\Auth\User - it is not an interface in /home/digipaki/arcpk.org/app/Models/User.php on line 11
+[30-Aug-2023 10:23:52 UTC] PHP Fatal error:  App\Models\User cannot implement Illuminate\Foundation\Auth\User - it is not an interface in /home/digipaki/arcpk.org/app/Models/User.php on line 11
