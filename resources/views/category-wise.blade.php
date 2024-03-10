@@ -254,7 +254,7 @@
 
                         @foreach($rankFourProjects as $k => $rankFourProj)
                         
-                        @php($id = Crypt::encrypt($rankThreeProj->id))
+                        @php($id = Crypt::encrypt($rankFourProj->id))
 
                         @if($rankFourProj->images->count() > 0)
                         @php($img = $rankFourProj->images[0]->image)
