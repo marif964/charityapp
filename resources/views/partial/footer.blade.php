@@ -1,5 +1,5 @@
 <footer>
-        <div class="footer_row1">
+        <!-- <div class="footer_row1">
             <img src="{{ asset('images/logo.jpg') }}" alt="" style="width: 85px;" />
             <p style="color: #fff; margin-left: 1rem">
                 GlobalGiving makes it easy and safe for you to give to local projects
@@ -68,19 +68,17 @@
                 <img src="{{ asset('assets/home/stars.png') }}" alt="" style="height: 2.5rem; width: 7rem" />
                 <img src="{{ asset('assets/home/pcl.png') }}" alt="" style="height: 2.5rem; width: 7rem" />
             </div>
-        </div>
+        </div> -->
 
         <div class="texts_footer">
             <p style="color: #fff; font-size: 14px">
-                © Copyright 2000-{{ date('Y') }} GlobalGiving, a 501(c)(3) organization (EIN:
-                30‑0108263) <br />
-                Registered Charity in England and Wales # 1122823 1 Thomas Circle NW,
-                Suite 800, <br />
-                Washington, DC 20005, USA Questions?
-                <label style="color: #e37f1c; cursor: pointer"> Contact Us</label>
+                © Copyright 2008-{{ date('Y') }} Action for the Rights of Children (ARC), <br />
+                Registered Charity in Pakistan <br />
+                
+                <!-- <label style="color: #e37f1c; cursor: pointer"> Contact Us</label> -->
             </p>
 
-            <div class="r_text">
+            <!-- <div class="r_text">
                 <select class="select" aria-label="Default select example">
                     <option selected>$ USD</option>
                     <option value="1">£ GBP</option>
@@ -94,6 +92,6 @@
                 <a href="">·PRICING</a>
                 <a href="">·API</a>
                 <a href="">·DATA</a>
-            </div>
+            </div> -->
         </div>
     </footer>

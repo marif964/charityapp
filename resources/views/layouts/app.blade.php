@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     <link rel="stylesheet" href="{{ asset('assets/css/jquery.toast.min.css') }}" />
     
-    <title>Chairty</title>
+    <title>ARC</title>
      
     <style>
     #overlay{   
@@ -113,7 +113,7 @@
         
 
         <!-- signup search btn -->
-        @include('partial.signup')
+        <!-- @include('partial.signup') -->
    @endif
 
     <!-- footer  -->

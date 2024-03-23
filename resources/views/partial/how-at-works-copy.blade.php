@@ -1,15 +1,19 @@
  <div class="row_1 bg-light">
-        <h1 style="font-family: serif">How It Works</h1>
+        <h1 style="font-family: serif">How it works</h1>
 
         <div class="row_card d-flex">
             <div class="col_1">
                 <img src="{{ asset('images/tick.svg') }}" alt="" class="feature_img" />
                 <p>
-                    Nonprofits around the world apply and join GlobalGiving to access
-                    more funding, to build new skills, and to make important
-                    connections.
+                We provide a platform for demand-driven child-focused development aims to empower children and 
+                communities to identify their needs, design interventions and actively implement these self-help 
+                projects at gross root level.
                 </p>
-                <h3 style="color: #b2bb1e">NONPROFITS</h3>
+                <h3 style="color: #b2bb1e"><a href="{{ route('sign-in') }}">
+                        <button type="button" class="btn text-light" style="background: #1c79e3"
+                             aria-expanded="false">
+                             Act Now!
+                        </button></a></h3>
             </div>
             <div class="col_2">
                 <img src="{{ asset('images/home_gift.svg')}}" alt="" class="feature_img" />

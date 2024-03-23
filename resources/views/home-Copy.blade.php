@@ -80,7 +80,7 @@
 </div>
 
 
-<a href="{{ url('fundraiser') }}" class="btn btn-warning w-50 w-100 mt-1 text-light fw-bold fs-2x">Add Fundraiser Compaign Data</a>
+<!-- <a href="{{ url('fundraiser') }}" class="btn btn-warning w-50 w-100 mt-1 text-light fw-bold fs-2x">Add Fundraiser Compaign Data</a> -->
 <h6 class="my-3 text-center" style="color: #5b564c; font-size: 15px">EXPLORE PROJECTS:</h6>
 
 <div class="explore_project">

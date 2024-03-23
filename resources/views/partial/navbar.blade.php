@@ -1,15 +1,16 @@
 <nav class="navbar p-3 navbar-expand-lg navbar-light bg-light fixed-top" style="border-bottom: 1px solid black;">
         <div class="container-fluid ">
-            <a class="navbar-brand" href="#"><img src="{{ asset('images/logo.jpg')}}" style="width: 25%;" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="{{ asset('images/logo-wbg.png')}}" style="width: 15%;" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="" class="fw-bold explore_project1"
+            
+            <!-- <a href="" class="fw-bold explore_project1"
                 style="margin-left: -6rem; font-size: 1.5rem; text-decoration: none; color: #1c97e3;">Explore
                 Project <i class="fa fa-search" style="color: #1681c4;"></i></a>
-            <p class="text-warning mt-3 mx-4 fw-bold">
+            <p class="text-warning mt-3 mx-4 fw-bold"> -->
             </p>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -19,7 +20,12 @@
                     <li class="nav-item px-2">
                         <a class="nav-link active" aria-current="page" href="{{ route('frontend') }}">Home</a>
                     </li>
-                    {{-- <li class="nav-item px-2">
+
+                    <!-- please add about us page here -->
+                    <li class="nav-item px-2">
+                        <a class="nav-link active" aria-current="page" href="{{ route('frontend') }}">About Us!</a>
+                    </li>
+                    <!-- {{-- <li class="nav-item px-2">
                         <a class="nav-link active" aria-current="page" href="#">Learn</a>
                     </li> --}}
                     <li class="nav-item px-2">
@@ -27,7 +33,7 @@
                     </li>
                     <li class="nav-item px-2">
                         <a class="nav-link active" aria-current="page" href="#">Corporate</a>
-                    </li>
+                    </li> -->
                     @if(Auth::guard('web')->check())
                     <li class="nav-item px-2">
                         <a class="nav-link  fw-bold active" style="color: #1c79e3;" aria-current="page"
@@ -87,7 +93,7 @@
                             <a href="{{ route('sign-in') }}">
                         <button type="button" class="btn text-light" style="background: #1c79e3"
                              aria-expanded="false">
-                             Login
+                             Act Now!
                         </button></a>
                         
                     </div>   
